@@ -10,22 +10,31 @@ body {
 
 h1 {
   font-family: 'Special Elite', cursive;
-  text-align: center
+  text-align: center;
+  width: 100%;
 }
 
 /* Style the top navigation bar */
 .topnav {
-  overflow: hidden;
   background-color: #333;
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.topnav li {
+  display:inline;
 }
 
 /* Style the topnav links */
 .topnav a {
   float: left;
-  display: block;
+  display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -41,6 +50,30 @@ h1 {
   padding: 10px;
 }
 
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+   background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
 /* Style the footer */
 .footer {
   background-color: #f1f1f1;
@@ -48,5 +81,5 @@ h1 {
 }
 
 #main_pic {
-  width: 100%
+  width: 100%;
 }
