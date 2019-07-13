@@ -5,53 +5,47 @@
     <title>The Bad Reminders | Punk Rock With a Twist</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link
-      href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap"
-      rel="stylesheet"
-      type="text/css"
-      >
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Special+Elite&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
-    <body>
+  <body>
     <!-- Top Banner -->
-      <header> <!-- Logo/Blocky Text -->
-        <h1>THE BAD REMINDERS</h1>
-      </header>
+    <header>
+      <h1>THE BAD REMINDERS</h1>
+    </header>
 
     <!-- Navigation Menu -->
-      <nav class="topnav">
-        <ul>
-          <li><a href="https://thebadreminders.bandcamp.com/merch/">MERCH</a></li>
-          <li><a href="#">TOUR</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </nav>
+    <nav>
+      <a href="#">MERCH</a>
+      <a href="#">TOUR</a>
+      <a href="#">CONTACT</a>
+    </nav>
 
     <!-- Main Content -->
-      <div class="content" id="album_img">
-        <img id="main_pic" src="images/albumart_600.jpg" alt="Album Art">
-      </div>
-      <div class="content" id="mail_form">
-        <form action="/my-handling-form-page" method="post">
-          <fieldset>
-            <h2>Sign up for our mailing list</h2>
-            <div>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="user_name">
-            </div>
-            <div>
-              <label for="mail">E-mail:</label>
-              <input type="email" id="mail" name="user_mail">
-            </div>
-            <div>
-              <input type="submit" value="Submit">
-            </div>
-          </fieldset>
-        </form>
-        </aside>
-      </div>
+    <div class="content">
+      <!-- Main Image -->
+      <img id="img-album" src="images/album_front.jpg" alt="Album Art">
 
-      <div class="content" id="links">
+      <!-- Mailing List Signup -->
+      <form action="/my-handling-form-page" method="post">
+        <fieldset>
+          <h2>Sign up for our mailing list</h2>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+          </div>
+          <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="user_mail">
+          </div>
+          <div>
+            <input type="submit" value="Submit">
+          </div>
+        </fieldset>
+      </form>
+
+      <div class="links">
         <h2>Listen/Stream</h2>
         <a href="https://open.spotify.com/album/0fZJC08SYwRCOBrmQORj3I?si=N8ll3XV3QICUz8LqTX2tpg">
           <img src="images/spotify.png" title="Listen on Spotify" alt="Spotify" style="border:0;">
@@ -66,10 +60,14 @@
           <img src="images/itunes.png" title="Listen on iTunes" alt="iTunes" style="border:0;">
         </a>
       </div>
+    </div>
 
-      <div class="footer">
-        <p>℗+© 2019 William C. Gaspar. All rights reserved.</p>
-      </div>
+    <div class="footer">
+      <p>℗+© 2019 William C. Gaspar. All rights reserved.</p>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    </div>
 
-    </body>
+  </body>
 </html>
