@@ -14,14 +14,14 @@ html {
 }
 h1 {
   font-family: 'Special Elite', cursive;
-  width: 100%;
+  font-size: 4em;
 }
 body {
   margin: 0;
   font-family: 'Oswald', sans-serif;
 }
 header {
-  padding: 1em;
+  padding: 0 1em;
   text-align: center;
   color: var(--off-white);
   display: none;
@@ -48,6 +48,12 @@ nav a:hover {
   color: var(--blackish);
 }
 .content {
+  padding: 1em 1.25em;
+  width: 100%;
+  overflow: hidden;
+  float: left;
+}
+.right {
   padding: 1em 1.25em;
   width: 100%;
   overflow: hidden;
@@ -93,7 +99,12 @@ input[type=submit] {
 }
 .links img {
   width: 100%;
+  float: left;
   padding: 0.5em 1em;
+}
+.linkgroup {
+  width: 100%;
+  float: left;
 }
 /* Footer w/ social media */
 .footer {
@@ -130,4 +141,23 @@ input[type=submit] {
 .fa-twitter {
   background: #55ACEE;
   color: var(--off-white);
+}
+
+/* Tablet formatting */
+@media only screen and (min-width: 768px) {
+  header {
+    display: inline-block;
+    width: 100%;
+    float: center;
+  }
+  nav {
+    margin-top: 0em;
+  }
+  .links {
+    display: inline-block;
+  }
+
+  .linkgroup {
+    width: 50%;
+  }
 }
