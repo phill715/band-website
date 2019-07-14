@@ -28,6 +28,7 @@ header {
 }
 header img {
   width: 100%;
+  padding: 0 6em;
 }
 nav {
   margin: 0.75em;
@@ -200,7 +201,7 @@ input[type=submit] {
   margin: auto;
   padding: 1.25em;
   border: 1px solid #888;
-  width: 20%;
+  width: 80%;
 }
 
 /* The Close Button */
