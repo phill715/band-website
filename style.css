@@ -162,6 +162,9 @@ input[type=submit] {
   .linkgroup {
     width: 50%;
   }
+  .modal {
+    padding: 0 15em;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -183,7 +186,6 @@ input[type=submit] {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding: 0 6em;
   padding-top: 6.25em; /* Location of the box */
   left: 0;
   top: 0;
