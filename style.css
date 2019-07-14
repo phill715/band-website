@@ -26,6 +26,9 @@ header {
   color: var(--off-white);
   display: none;
 }
+header img {
+  width: 100%;
+}
 nav {
   margin: 0.75em;
   margin-bottom: 0;
