@@ -34,6 +34,8 @@ nav {
   overflow: hidden;
   font-family: 'Special Elite', cursive;
   font-size: 1.5em;
+  border: 1px solid var(--off-white);
+  border-radius: 0.25em;
 }
 nav a {
   float: left;
@@ -48,13 +50,13 @@ nav a:hover {
   color: var(--blackish);
 }
 .content {
-  padding: 1em 1.25em;
+  padding: 1.25em 1.25em;
   width: 100%;
   overflow: hidden;
   float: left;
 }
 .right {
-  padding: 1em 1.25em;
+  padding: 1.25em 1.25em;
   width: 100%;
   overflow: hidden;
   float: left;
@@ -71,7 +73,7 @@ fieldset {
 input, select, textarea {
   width: 100%;
   padding: 0.75em;
-  border: 1px solid #ccc;
+  border: 1px solid var(--off-white);
   border-radius: 0.25em;
   box-sizing: border-box;
   resize: vertical;
@@ -111,7 +113,8 @@ input[type=submit] {
   background-color: var(--red-panel);
   color: var(--blackish);
   width: 100%;
-  border-top: 1px solid black;
+  border: 1px solid var(--off-white);
+  border-radius: 0.25em;
   margin-top: 1.25em;
   text-align: center;
   float: left;
@@ -164,8 +167,9 @@ input[type=submit] {
   .right {
     float: right;
     width: 50%;
-    padding: 0 1em;
-    padding-top: 4.5em;
+    padding: 0;
+    padding-right: 1em;
+    padding-top: 1.25em;
   }
 }
 
