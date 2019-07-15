@@ -49,9 +49,27 @@ nav a {
   padding: 0.5em;
   text-decoration: none;
 }
+nav .social {
+  float: right;
+}
 nav a:hover {
   background-color: var(--blue-tie);
   color: var(--blackish);
+}
+
+/* Social Media Icons */
+.fa {
+  margin: 0 0.3em;
+  font-size: 2em;
+  width: 2em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: black;
+  color: var(--off-white);
+}
+.fa:hover {
+    opacity: 0.7;
 }
 .content {
   padding: 1.25em 1.25em;
@@ -122,31 +140,6 @@ input[type=submit] {
   margin-top: 1.25em;
   text-align: center;
   float: left;
-}
-/* Social Media Icons */
-.fa {
-  padding: 1em 1.875em 1em 1.25em;
-  margin: 0.625em 0.3em;
-  font-size: 2em;
-  width: 2em;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-.fa:hover {
-    opacity: 0.7;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: var(--off-white);
-}
-.fa-instagram {
-  background: #c13584;
-  color: var(--off-white);
-}
-.fa-twitter {
-  background: #55ACEE;
-  color: var(--off-white);
 }
 
 /* Tablet formatting */
