@@ -29,7 +29,6 @@ header {
 }
 header img {
   width: 100%;
-  padding: 0 4em;
 }
 nav {
   margin: 0.75em;
@@ -156,6 +155,12 @@ input[type=submit] {
   .modal {
     padding: 0 15em;
   }
+  #img-banner-mobil {
+    display: none;
+  }
+  #img-banner-full {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -169,11 +174,8 @@ input[type=submit] {
     padding-right: 1em;
     padding-top: 1.25em;
   }
-  #img-banner-mobil {
-    display: none;
-  }
   #img-banner-full {
-    display: block;
+    padding: 0 5em;
   }
 }
 
