@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <title>The Bad Reminders | Punk Rock</title>
@@ -12,7 +13,6 @@
   <body>
     <!-- Top Banner -->
     <header>
-      <!--<h1>THE BAD REMINDERS</h1>-->
       <img id="img-banner-mobil" src="images/logo_stacked_invert.jpg" alt="Banner">
       <img id="img-banner-full" src="images/logo_wide_invert.jpg" alt="Banner">
     </header>
@@ -23,15 +23,15 @@
       <a target=_blank href="https://bnds.us/a6cxsk">TOUR</a>
       <a target=_blank href="https://thebadreminders.bandcamp.com">MUSIC</a>
       <a id="contact" href="#">CONTACT</a>
-      <!-- <a href="#">CONTACT</a> -->
+      <a href="press.html">PRESS</a>
+      <a href="bio.html">BIO</a>
       <div class="social">
         <a target=_blank href="https://facebook.com/thebadreminders" class="fa fa-facebook"></a>
         <a target=_blank href="https://instagram.com/_u/badreminders" class="fa fa-instagram"></a>
         <a target=_blank href="https://twitter.com/thebadreminders" class="fa fa-twitter"></a>
       </div>
     </nav>
-
-    <!-- The Modal -->
+    <!-- Contact Modal -->
     <div id="contactModal" class="modal">
       <!-- Modal content -->
       <div class="modal-content">
@@ -40,7 +40,7 @@
         <p>Billy Gaspar</p>
         <p>thebadreminders@gmail.com</p>
       </div>
-    </div> <!-- Modal -->
+    </div> <!-- Contact Modal -->
 
     <!-- Main Content -->
     <div class="content">
@@ -115,28 +115,28 @@
       // Get the modal
       var modal = document.getElementById("contactModal");
 
-// Get the button that opens the modal
-var btn = document.getElementById("contact");
+      // Get the button that opens the modal
+      var btn = document.getElementById("contact");
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
     </script>
   </body>
 </html>

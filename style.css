@@ -87,19 +87,24 @@ nav a:hover {
   float: left;
   width: 100%;
 }
+
+/* Left Side */
 .links {
   color: var(--off-white);
   width: 100%;
 }
+/* Listen buttons */
 .stream {
   width: 100%;
   padding: 1em;
 }
-.links img {
+.stream img {
   width: 100%;
   float: left;
   margin: 0.5em 0;
 }
+/* There are two groups that go 
+ * side by side on a wide display */
 .linkgroup {
   width: 100%;
   padding: 0 1em;
@@ -109,12 +114,12 @@ nav a:hover {
   margin: 0.5em 0;
   padding: 0 1em;
   width: 100%;
-  overflow: hidden;
   float: left;
 }
 .emailform h2 {
   margin: 0.25em 0;
 }
+
 /* Mailing List Signup Form */
 fieldset {
   background-color: var(--red-panel);
@@ -143,6 +148,29 @@ input[type=submit] {
   cursor: pointer;
   float: right;
 }
+
+.subpage {
+  background-color: var(--red-panel);
+  color: var(--off-white);
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid var(--off-white);
+  border-radius: 0.25em;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.subpage h2 {
+  text-align: center;
+  margin: 0.25em 0;
+}
+.subpage p {
+  width: 100%;
+  margin: 0.5em 0;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  float: left;
+}
+
 /* Footer w/ social media */
 .footer {
   font-family: 'Special Elite', cursive;
@@ -152,6 +180,7 @@ input[type=submit] {
   text-align: center;
   float: left;
 }
+
 /* Disable wide logo and enable stacked logo*/
 #img-banner-mobil {
   display: block;

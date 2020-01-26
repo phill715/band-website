@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>The Bad Reminders | Punk Rock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Special+Elite&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <!-- Top Banner -->
+    <header>
+      <a href="index.html">
+        <img id="img-banner-mobil" src="images/logo_stacked_invert.jpg" alt="Banner">
+        <img id="img-banner-full" src="images/logo_wide_invert.jpg" alt="Banner">
+      </a>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+      <a target=_blank href="https://thebadreminders.bandcamp.com/merch">MERCH</a>
+      <a target=_blank href="https://bnds.us/a6cxsk">TOUR</a>
+      <a target=_blank href="https://thebadreminders.bandcamp.com">MUSIC</a>
+      <a id="contact" href="#">CONTACT</a>
+      <a href="press.html">PRESS</a>
+      <a href="bio.html">BIO</a>
+      <div class="social">
+        <a target=_blank href="https://facebook.com/thebadreminders" class="fa fa-facebook"></a>
+        <a target=_blank href="https://instagram.com/_u/badreminders" class="fa fa-instagram"></a>
+        <a target=_blank href="https://twitter.com/thebadreminders" class="fa fa-twitter"></a>
+      </div>
+    </nav>
+
+    <div class="subpage">
+      <h2>Press Quotes</h2>
+      <p> Here's where they're gonna go! </p>
+    </div>
+
+    <div class="footer">
+      <p>℗+© 2019 William C. Gaspar. All rights reserved.</p>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("contactModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("contact");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
