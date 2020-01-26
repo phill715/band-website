@@ -14,28 +14,24 @@ html {
 }
 h1 {
   font-family: 'Special Elite', cursive;
-  font-size: 4em;
+  font-size: 4rem;
 }
 body {
-  margin: 1em;
+  margin: 1rem;
   font-family: 'Oswald', sans-serif;
 }
-header {
+img {
   width: 100%;
-  margin-bottom: 1em;
+}
+header {
   text-align: center;
   color: var(--off-white);
 }
-header img {
-  width: 100%;
-}
 nav {
-  padding: 0.25em;
-  margin-bottom: 1em;
-  overflow: hidden;
-  border: 0.1em solid var(--off-white);
-  border-radius: 0.25em;
-  font-size: 1.5em;
+  padding: 0.25rem;
+  border: 0.1rem solid var(--off-white);
+  border-radius: 0.25rem;
+  font-size: 1.50rem;
   font-family: 'Special Elite', cursive;
   background-color: var(--red-panel);
 }
@@ -43,12 +39,14 @@ nav a {
   display: inline-block;
   color: var(--off-white);
   text-align: left;
-  padding: 0.5em;
+  padding: 0.5rem;
+  padding-top: 1rem;
   text-decoration: none;
 }
 nav .social {
-  float: right;
-  padding: 0 0.25em;
+  width: 100%;
+  padding: 0 0.25rem;
+  text-align: center;
 }
 nav a:hover {
   background-color: var(--blue-tie);
@@ -57,9 +55,7 @@ nav a:hover {
 
 /* Social Media Icons */
 .fa {
-  margin: 0 0.3em;
-  font-size: 2em;
-  width: 2em;
+  width: 3rem;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -67,140 +63,92 @@ nav a:hover {
   color: var(--off-white);
 }
 .social a {
-  padding: 0.5em;
-  margin: 0 0.125em;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
 }
 .fa:hover {
     opacity: 0.7;
 }
 
 /* Main page */
-.content {
+.toplevel {
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   overflow: hidden;
   float: left;
+  color: var(--off-white);
 }
-#img-main {
-  float: left;
-  width: 100%;
+.panel {
+  padding: 0.5rem 2rem;
+  border: 0.1rem solid var(--off-white);
+  border-radius: 0.25rem;
+  background-color: var(--red-panel);
+  color: var(--off-white);
 }
 
-/* Left Side */
-.links {
+h2 {
   color: var(--off-white);
-  width: 100%;
-  float: left;
-}
-.links h2 {
   margin: 0;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
+
 /* Listen buttons */
-.stream {
+#stream {
   width: 100%;
   float: left;
-}
-.stream img {
-  width: 100%;
-  float: left;
-  margin-bottom: 1em;
 }
 /* There are two groups that go 
  * side by side on a wide display */
 .linkgroup {
   width: 100%;
   float: left;
-  padding: 0 0.5em;
-}
-.emailform {
-  width: 100%;
-  margin-bottom: 1em;
-  float: left;
-  border: 1px solid var(--off-white);
-  border-radius: 0.25em;
-  background-color: var(--red-panel);
-  color: var(--off-white);
-}
-.emailform h2 {
-  margin: 0.25em 0;
+  padding: 0 0.5rem;
 }
 
 /* Mailing List Signup Form */
 input, select, textarea {
   width: 100%;
-  padding: 0.75em;
+  padding: 0.75rem;
   resize: vertical;
 }
 fieldset {
   border: none;
 }
 label {
-  padding: 0.5em;
-  padding-left: 0em;
+  padding: 0.5rem;
+  padding-left: 0rem;
   display: inline-block;
 }
 input[type=submit] {
   background-color: var(--blue-tie);
   color: var(--off-white);
-  margin-top: 1em;
-  padding: 1em 1.25em;
+  margin-top: 1rem;
+  padding: 1rem 1.25rem;
   border: none;
-  border-radius: 0.25em;
+  border-radius: 0.25rem;
   cursor: pointer;
   float: right;
 }
 
-.press {
-  width: 100%;
-  padding: 0 1em;
-  margin: 0.5em 0;
-  overflow: hidden;
-  border: 0.1em solid var(--off-white);
-  border-radius: 0.25em;
-  background-color: var(--red-panel);
-  color: var(--off-white);
-  text-align: center;
+#bio p {
+  text-indent: 1.5rem;
 }
-.bio {
-  width: 100%;
-  padding: 0 1em;
-  margin: 0.5em 0;
-  overflow: hidden;
-  border: 0.1em solid var(--off-white);
-  border-radius: 0.25em;
-  background-color: var(--red-panel);
-  color: var(--off-white);
-}
-.bio h2 {
-  text-align: center;
-}
-.bio p {
-  font-family: 'Special Elite', cursive;
-}
-.press p {
-  font-family: 'Special Elite', cursive;
-}
-#bio {
-  text-indent: 1.5em;
-  float: left;
-}
+
 .quote {
+  margin-bottom: 0;
   text-align: center;
   font-family: 'Special Elite', cursive;
 }
 .quoter {
   margin-top: 0;
   text-align: center;
+  display: block;
+  color: var(--blue-tie);
 }
-
 /* Footer w/ social media */
-.footer {
-  width: 100%;
-  float: left;
+#footer {
   text-align: center;
   font-family: 'Special Elite', cursive;
-  color: var(--off-white);
 }
 
 /* Disable wide logo and enable stacked logo*/
@@ -220,7 +168,7 @@ input[type=submit] {
     width: 50%;
   }
   .modal {
-    padding: 0 15em;
+    padding: 0 15rem;
   }
   /* Enable wide logo and disable stacked logo */
   #img-banner-mobil {
@@ -233,38 +181,19 @@ input[type=submit] {
 
 @media only screen and (min-width: 1000px) {
   #img-banner-full {
-    padding: 0 5em;
+    padding: 0 5rem;
   }
   nav .social {
+    width: unset;
     float: right;
-    padding: 0 0.25em;
+    padding: 0 0.25rem;
   }
-  .content {
+  #mainpic {
     width: 50%;
   }
-  /*
-  .stream {
-    padding: 0 0.5em;
-  }
-  .emailform {
-    padding: 0;
-  }
-  .links {
-    float: right;
+  #maincontent {
     width: 50%;
-    padding: 0;
-    padding-right: 1em;
-  }*/
-  .links {
-    width: 50%;
-    padding-left: 1em;
-  }
-  .bio {
-    width: 50%;
-    display: inline-block;
-  }
-  .press {
-    width: 50%;
+    padding-left: 1rem;
   }
 }
 
@@ -274,7 +203,7 @@ input[type=submit] {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 6.25em; /* Location of the box */
+  padding-top: 6.25rem; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -289,7 +218,7 @@ input[type=submit] {
   background-color: #fefefe;
   text-align: center;
   margin: auto;
-  padding: 1.25em;
+  padding: 1.25rem;
   border: 1px solid #888;
   width: 80%;
 }
