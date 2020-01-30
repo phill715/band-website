@@ -142,8 +142,12 @@ input[type=submit] {
 .quoter {
   margin-top: 0;
   text-align: center;
-  display: block;
+  width: 100%;
+  display: inline-block;
+}
+.quoter a {
   color: var(--blue-tie);
+  padding-left: 1em;
 }
 /* Footer w/ social media */
 #footer {
